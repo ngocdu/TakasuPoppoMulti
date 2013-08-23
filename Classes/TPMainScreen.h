@@ -36,9 +36,9 @@ public:
 class TPMainScreen : public CCLayer, CCTableViewDelegate, CCTableViewDataSource{
 private:
 
-    CCArray *listGamer = new CCArray();
+    CCArray *listGamer;
     
-    CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+    CCSize winSize;
     //===================== New UI =========================
     CCSprite *newBackground;
     CCSprite *rankingContainer;

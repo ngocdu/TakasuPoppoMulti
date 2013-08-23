@@ -17,8 +17,7 @@ CCScene* TPRegisterScreen::scene() {
     return scene;
 }
 
-bool TPRegisterScreen::init()
-{
+bool TPRegisterScreen::init() {
     w = winSize.width;
     h = winSize.height;
     CCSize editBoxSize = CCSizeMake((w - 250), 50);
@@ -26,7 +25,9 @@ bool TPRegisterScreen::init()
     CCSprite *background = CCSprite::create("GetPresentBG.png");
     background->setPosition(ccp(w/2, h/2));
     this->addChild(background);
-
+    
+    winSize = CCDirector::sharedDirector()->getWinSize();
+    
 //    CCLabelTTF *congrats = CCLabelTTF::create("BEST SCORE !!","BankGothic Md BT" , 60);
 //    congrats->setPosition(ccp(winSize.width /2, winSize.height * 6/8));
 //    this->addChild(congrats);

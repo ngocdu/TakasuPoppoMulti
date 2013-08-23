@@ -23,7 +23,7 @@ bool TPSocialScreen::init(){
         return false;
     }
     this->setTouchEnabled(true);
-    
+    winSize = CCDirector::sharedDirector()->getWinSize();
     _screenSize = CCDirector::sharedDirector()->getWinSize();
     w = _screenSize.width;
     h = _screenSize.height;

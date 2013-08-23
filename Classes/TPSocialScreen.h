@@ -22,7 +22,7 @@ class TPSocialScreen :public CCLayer {
 private:
     CCSize _screenSize;
     float w, h;
-    CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+    CCSize winSize;
 public:
     virtual bool init();
     static CCScene * scene();

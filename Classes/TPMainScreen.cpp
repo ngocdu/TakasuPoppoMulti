@@ -45,6 +45,10 @@ bool TPMainScreen::init(bool isGameOver, int score) {
         gameOverIsOn = isGameOver;
         gameScoreOfNow = score;
     }
+    
+    //====================== Init ==========================
+    winSize = CCDirector::sharedDirector()->getWinSize();
+    listGamer = new CCArray();
     //===================== Audio ==========================
     SimpleAudioEngine::sharedEngine()->preloadBackgroundMusic("PoppoMelody.mp3");
     CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("PoppoMelody.mp3", true);
