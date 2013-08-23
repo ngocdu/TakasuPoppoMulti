@@ -24,7 +24,7 @@ USING_NS_CC;
 
 class TPRegisterScreen:public CCLayer, extension::CCEditBoxDelegate {
     private :
-    CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+    CCSize winSize;
     float w, h;
     CCLabelTTF *emailInvalidMsg;
     CCLabelTTF *nameInvalidMsg;
