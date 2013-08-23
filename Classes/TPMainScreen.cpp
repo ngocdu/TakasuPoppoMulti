@@ -565,53 +565,53 @@ void TPMainScreen::setUIItem(){
                                itemContainer->getContentSize().height / 2 - 200));
     itemContainer->addChild(itemLabel, 102);
     
-    item1Shade = CCSprite::create("ItemShade.png");
+    item1Shade = CCSprite::create("itemShade.png");
     item1Shade->setPosition(ccp(itemContainer->getContentSize().height / 2 - 190,
                                 itemContainer->getContentSize().height / 2 - 80));
     itemContainer->addChild(item1Shade, 103, 166);
     item1Shade->setVisible(false);
     
-    item2Shade = CCSprite::create("ItemShade.png");
+    item2Shade = CCSprite::create("itemShade.png");
     item2Shade->setPosition(ccp(itemContainer->getContentSize().height / 2 - 10,
                                 itemContainer->getContentSize().height / 2 - 80));
     itemContainer->addChild(item2Shade, 103, 167);
     item2Shade->setVisible(false);
     
-    item3Shade = CCSprite::create("ItemShade.png");
+    item3Shade = CCSprite::create("itemShade.png");
     item3Shade->setPosition(ccp(itemContainer->getContentSize().height / 2 + 170,
                                 itemContainer->getContentSize().height / 2 - 80));
     itemContainer->addChild(item3Shade, 103, 168);
     item3Shade->setVisible(false);
     
-    item4Shade = CCSprite::create("ItemShade.png");
+    item4Shade = CCSprite::create("itemShade.png");
     item4Shade->setPosition(ccp(itemContainer->getContentSize().height / 2 - 190,
                                 itemContainer->getContentSize().height / 2 - 275));
     itemContainer->addChild(item4Shade, 103, 169);
     item4Shade->setVisible(false);
     itemShadeArray->addObject(item4Shade);
     
-    item5Shade = CCSprite::create("ItemShade.png");
+    item5Shade = CCSprite::create("itemShade.png");
     item5Shade->setPosition(ccp(itemContainer->getContentSize().height / 2 - 10,
                                 itemContainer->getContentSize().height / 2 - 275));
     itemContainer->addChild(item5Shade, 103, 170);
     item5Shade->setVisible(false);
     itemShadeArray->addObject(item5Shade);
     
-    item6Shade = CCSprite::create("ItemShade.png");
+    item6Shade = CCSprite::create("itemShade.png");
     item6Shade->setPosition(ccp(itemContainer->getContentSize().height / 2 + 170,
                                 itemContainer->getContentSize().height / 2 - 275));
     itemContainer->addChild(item6Shade, 103, 171);
     item6Shade->setVisible(false);
     itemShadeArray->addObject(item6Shade);
     
-    item7Shade = CCSprite::create("ItemShade.png");
+    item7Shade = CCSprite::create("itemShade.png");
     item7Shade->setPosition(ccp(itemContainer->getContentSize().height / 2 - 190,  // x - 180
                                 itemContainer->getContentSize().height / 2 - 435));
     itemContainer->addChild(item7Shade, 103, 172);
     item7Shade->setVisible(false);
     itemShadeArray->addObject(item7Shade);
     
-    item8Shade = CCSprite::create("ItemShade.png");
+    item8Shade = CCSprite::create("itemShade.png");
     item8Shade->setPosition(ccp(itemContainer->getContentSize().height / 2 - 10,
                                 itemContainer->getContentSize().height / 2 - 435));
     itemContainer->addChild(item8Shade, 103, 173);
