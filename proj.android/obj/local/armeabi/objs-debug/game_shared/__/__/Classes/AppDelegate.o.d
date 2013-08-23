@@ -233,12 +233,8 @@ obj/local/armeabi/objs-debug/game_shared/__/__/Classes/AppDelegate.o: \
  /Users/kien_metalrock/android/cocos2d-2.1rc0-x-2.1.3/TakasuPoppo/proj.android/../../CocosDenshion/android/../include/SimpleAudioEngine.h \
  /Users/kien_metalrock/android/cocos2d-2.1rc0-x-2.1.3/TakasuPoppo/proj.android/../../CocosDenshion/android/../include/Export.h \
  jni/../../Classes/TakasuPoppo.h jni/../../Classes/TPObjectExtension.h \
- jni/../../Classes/TPBlockSet.h \
- jni/../../Classes/CCGestureRecognizer/CCGestureRecognizer.h \
- jni/../../Classes/CCGestureRecognizer/CCSwipeGestureRecognizer.h \
- jni/../../Classes/CCGestureRecognizer/CCGestureRecognizer.h \
- jni/../../Classes/TPItemObject.h jni/../../Classes/TPDefinition.h \
- jni/../../Classes/TPRegisterScreen.h \
+ jni/../../Classes/TPBlockSet.h jni/../../Classes/TPItemObject.h \
+ jni/../../Classes/TPDefinition.h jni/../../Classes/TPRegisterScreen.h \
  jni/../../Classes/rapidjson/rapidjson.h \
  /Users/kien_metalrock/android/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cassert \
  jni/../../Classes/rapidjson/document.h \
@@ -852,12 +848,6 @@ jni/../../Classes/TakasuPoppo.h:
 jni/../../Classes/TPObjectExtension.h:
 
 jni/../../Classes/TPBlockSet.h:
-
-jni/../../Classes/CCGestureRecognizer/CCGestureRecognizer.h:
-
-jni/../../Classes/CCGestureRecognizer/CCSwipeGestureRecognizer.h:
-
-jni/../../Classes/CCGestureRecognizer/CCGestureRecognizer.h:
 
 jni/../../Classes/TPItemObject.h:
 

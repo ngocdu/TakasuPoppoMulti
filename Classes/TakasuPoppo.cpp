@@ -6,7 +6,6 @@
 #include "SimpleAudioEngine.h"
 #include "TPObjectExtension.h"
 #include "TPBlockSet.h"
-#include "CCGestureRecognizer.h"
 #include "TPMainScreen.h"
 #include "TPUser.h"
 #include "TPSocialScreen.h"

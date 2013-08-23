@@ -8,7 +8,23 @@ LOCAL_MODULE_FILENAME := libgame
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
-                   ../../Classes/HelloWorldScene.cpp
+                   ../../Classes/TakasuPoppo.cpp \
+                   ../../Classes/TPBlockSet.cpp \
+                   ../../Classes/TPClean.cpp \
+                   ../../Classes/TPDebug.cpp \
+                   ../../Classes/TPItem.cpp \
+                   ../../Classes/TPItemObject.cpp \
+                   ../../Classes/TPMainScreen.cpp \
+                   ../../Classes/TPMap.cpp \
+                   ../../Classes/TPMatch.cpp \
+                   ../../Classes/TPObjectExtension.cpp \
+                   ../../Classes/TPParticles.cpp \
+                   ../../Classes/TPRegisterScreen.cpp \
+                   ../../Classes/TPSocialScreen.cpp \
+                   ../../Classes/TPSwiped.cpp \
+                   ../../Classes/TPTopScreen.cpp \
+                   ../../Classes/TPTouch.cpp \
+                   ../../Classes/TPUser.cpp
                    
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes                   
 

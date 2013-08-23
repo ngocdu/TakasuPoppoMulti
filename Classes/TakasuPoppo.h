@@ -9,9 +9,6 @@
 #include "cocos2d.h"
 #include "TPObjectExtension.h"
 #include "TPBlockSet.h"
-#include "CCGestureRecognizer/CCGestureRecognizer.h"
-
-#include "CCGestureRecognizer/CCSwipeGestureRecognizer.h"
 #include "TPItemObject.h"
 #include "TPDefinition.h"
 #include "TPRegisterScreen.h"

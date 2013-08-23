@@ -8,7 +8,6 @@
 #include <iostream>
 #include <string>
 #include "TPRegisterScreen.h"
-#include "CCString.h"
 
 CCScene* TPRegisterScreen::scene() {
     CCScene *scene = CCScene::create();

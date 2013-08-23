@@ -422,12 +422,6 @@
 		FB5449E817C7386D0003E86D /* TPTopScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB5449D517C7386D0003E86D /* TPTopScreen.cpp */; };
 		FB5449E917C7386D0003E86D /* TPTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB5449D717C7386D0003E86D /* TPTouch.cpp */; };
 		FB5449EA17C7386D0003E86D /* TPUser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB5449D817C7386D0003E86D /* TPUser.cpp */; };
-		FBE1018E17C746C800D1A174 /* CCGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBE1018217C746C600D1A174 /* CCGestureRecognizer.cpp */; };
-		FBE1018F17C746C800D1A174 /* CCLongPressGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBE1018417C746C600D1A174 /* CCLongPressGestureRecognizer.cpp */; };
-		FBE1019017C746C800D1A174 /* CCPanGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBE1018617C746C700D1A174 /* CCPanGestureRecognizer.cpp */; };
-		FBE1019117C746C800D1A174 /* CCPinchGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBE1018817C746C700D1A174 /* CCPinchGestureRecognizer.cpp */; };
-		FBE1019217C746C800D1A174 /* CCSwipeGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBE1018A17C746C700D1A174 /* CCSwipeGestureRecognizer.cpp */; };
-		FBE1019317C746C800D1A174 /* CCTapGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBE1018C17C746C700D1A174 /* CCTapGestureRecognizer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1137,18 +1131,6 @@
 		FB5449D717C7386D0003E86D /* TPTouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TPTouch.cpp; sourceTree = "<group>"; };
 		FB5449D817C7386D0003E86D /* TPUser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TPUser.cpp; sourceTree = "<group>"; };
 		FB5449D917C7386D0003E86D /* TPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPUser.h; sourceTree = "<group>"; };
-		FBE1018217C746C600D1A174 /* CCGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCGestureRecognizer.cpp; path = CCGestureRecognizer/CCGestureRecognizer.cpp; sourceTree = "<group>"; };
-		FBE1018317C746C600D1A174 /* CCGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCGestureRecognizer.h; path = CCGestureRecognizer/CCGestureRecognizer.h; sourceTree = "<group>"; };
-		FBE1018417C746C600D1A174 /* CCLongPressGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCLongPressGestureRecognizer.cpp; path = CCGestureRecognizer/CCLongPressGestureRecognizer.cpp; sourceTree = "<group>"; };
-		FBE1018517C746C700D1A174 /* CCLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCLongPressGestureRecognizer.h; path = CCGestureRecognizer/CCLongPressGestureRecognizer.h; sourceTree = "<group>"; };
-		FBE1018617C746C700D1A174 /* CCPanGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCPanGestureRecognizer.cpp; path = CCGestureRecognizer/CCPanGestureRecognizer.cpp; sourceTree = "<group>"; };
-		FBE1018717C746C700D1A174 /* CCPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPanGestureRecognizer.h; path = CCGestureRecognizer/CCPanGestureRecognizer.h; sourceTree = "<group>"; };
-		FBE1018817C746C700D1A174 /* CCPinchGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCPinchGestureRecognizer.cpp; path = CCGestureRecognizer/CCPinchGestureRecognizer.cpp; sourceTree = "<group>"; };
-		FBE1018917C746C700D1A174 /* CCPinchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPinchGestureRecognizer.h; path = CCGestureRecognizer/CCPinchGestureRecognizer.h; sourceTree = "<group>"; };
-		FBE1018A17C746C700D1A174 /* CCSwipeGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCSwipeGestureRecognizer.cpp; path = CCGestureRecognizer/CCSwipeGestureRecognizer.cpp; sourceTree = "<group>"; };
-		FBE1018B17C746C700D1A174 /* CCSwipeGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSwipeGestureRecognizer.h; path = CCGestureRecognizer/CCSwipeGestureRecognizer.h; sourceTree = "<group>"; };
-		FBE1018C17C746C700D1A174 /* CCTapGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCTapGestureRecognizer.cpp; path = CCGestureRecognizer/CCTapGestureRecognizer.cpp; sourceTree = "<group>"; };
-		FBE1018D17C746C800D1A174 /* CCTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCTapGestureRecognizer.h; path = CCGestureRecognizer/CCTapGestureRecognizer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1487,18 +1469,6 @@
 		FB27565D17AA476200A75ED1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FBE1018217C746C600D1A174 /* CCGestureRecognizer.cpp */,
-				FBE1018317C746C600D1A174 /* CCGestureRecognizer.h */,
-				FBE1018417C746C600D1A174 /* CCLongPressGestureRecognizer.cpp */,
-				FBE1018517C746C700D1A174 /* CCLongPressGestureRecognizer.h */,
-				FBE1018617C746C700D1A174 /* CCPanGestureRecognizer.cpp */,
-				FBE1018717C746C700D1A174 /* CCPanGestureRecognizer.h */,
-				FBE1018817C746C700D1A174 /* CCPinchGestureRecognizer.cpp */,
-				FBE1018917C746C700D1A174 /* CCPinchGestureRecognizer.h */,
-				FBE1018A17C746C700D1A174 /* CCSwipeGestureRecognizer.cpp */,
-				FBE1018B17C746C700D1A174 /* CCSwipeGestureRecognizer.h */,
-				FBE1018C17C746C700D1A174 /* CCTapGestureRecognizer.cpp */,
-				FBE1018D17C746C800D1A174 /* CCTapGestureRecognizer.h */,
 				FB5449B317C7223A0003E86D /* AppDelegate.cpp */,
 				FB5449BF17C7386D0003E86D /* TakasuPoppo.cpp */,
 				FB5449C017C7386D0003E86D /* TakasuPoppo.h */,
@@ -2955,12 +2925,6 @@
 				FB5449E817C7386D0003E86D /* TPTopScreen.cpp in Sources */,
 				FB5449E917C7386D0003E86D /* TPTouch.cpp in Sources */,
 				FB5449EA17C7386D0003E86D /* TPUser.cpp in Sources */,
-				FBE1018E17C746C800D1A174 /* CCGestureRecognizer.cpp in Sources */,
-				FBE1018F17C746C800D1A174 /* CCLongPressGestureRecognizer.cpp in Sources */,
-				FBE1019017C746C800D1A174 /* CCPanGestureRecognizer.cpp in Sources */,
-				FBE1019117C746C800D1A174 /* CCPinchGestureRecognizer.cpp in Sources */,
-				FBE1019217C746C800D1A174 /* CCSwipeGestureRecognizer.cpp in Sources */,
-				FBE1019317C746C800D1A174 /* CCTapGestureRecognizer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
