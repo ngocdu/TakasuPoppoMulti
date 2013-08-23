@@ -20,7 +20,7 @@
 USING_NS_CC;
 class TakasuPoppo : public cocos2d::CCLayer {
 private:
-    CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+    CCSize winSize;
     
     CCPoint startSwipePoint;        //The starting point of swiping action
     CCPoint movingSwipePoint;       //The points that change during moving action
@@ -55,27 +55,27 @@ private:
     float moveCounter;              //Counter time for move swipe action
     float fallCounter;              //Counter time for falling counter action
     
-    float hbcComboTimer = 0;           //Timer for combos
-    int hbcComboCounter = 0;           //Counter for combos
+    float hbcComboTimer;           //Timer for combos
+    int hbcComboCounter;           //Counter for combos
     
     float deltaTime;                //Public variable for delta time
     
-    float executionTime = 3.5;
-    float endTimeCounter = 4.5;
+    float executionTime;
+    float endTimeCounter;
     
-    float hintCounter = 3;          //Display hint after this counter
+    float hintCounter;          //Display hint after this counter
     
-    float movingSpeed = AFTER_CLEAN_FALL_TIME;       //For all moving speed
+    float movingSpeed;       //For all moving speed
     
-    float gameTimer = PLAY_TIME;
+    float gameTimer;
     
-    bool counterExist1 = false;
-    bool counterExist2 = false;
-    bool counterExist3 = false;
+    bool counterExist1;
+    bool counterExist2;
+    bool counterExist3;
     
-    bool prepareToEnd = false;
-    bool timeOverOn = false;
-    bool takasuBonusOn = false;
+    bool prepareToEnd;
+    bool timeOverOn;
+    bool takasuBonusOn;
     
     bool spriteContained;           //Bool for the touch on sprite's trigger
     bool swiping;                   //Bool for swiping action
@@ -96,9 +96,9 @@ private:
     bool hintDisplaying;            //Indicating that a hint is currently displayed
     int hintCount;
     
-    bool gridOn = false;
+    bool gridOn;
     
-    int debugRun = 0;
+    int debugRun;
     
     char comboTimerString[20];
     char comboCounterString[20];
@@ -110,54 +110,54 @@ private:
     //SCORE
     CCLabelTTF *lbScore;
     CCLabelBMFont *bmScore;
-    int score = 0;
-    float ComboScoreRequired = 1;
+    int score;
+    float ComboScoreRequired;
     
     // Vinhnt - for fever time
-    float feverTimer = 0;           //Timer for Fever Time
-    float feverTimeLimit = 3;
-    int feverCounter = 0;           //Counter for Fever Time
-    bool isCreateFeverTime = false;
-    bool isInFeverTime = false;
+    float feverTimer;           //Timer for Fever Time
+    float feverTimeLimit;
+    int feverCounter;           //Counter for Fever Time
+    bool isCreateFeverTime;
+    bool isInFeverTime;
     
-    int hyperC = 10;
-    bool hyperBlockC = false;
+    int hyperC;
+    bool hyperBlockC;
     //Vinhnt - for Gauge Combo
-    float gaugeComboCounter = 0;
-    bool isCreateGaugeCombo = false;
-    int lastGaugeCombo = 0;
-    float gaugePeriod = GAUGE_PERIOD;
+    float gaugeComboCounter;
+    bool isCreateGaugeCombo;
+    int lastGaugeCombo;
+    float gaugePeriod;
     
     //item
-    float timeBonus = 0;
-    float increasedScore = 1;
-    int doubleScore = 1;
-    bool endLastScore = false;
-    bool createThreeeHyper = false;
-    float increaseComboTimes = 0;
-    int lastScores = 0;
-    int scoresBeforeLastBonus = 0;
+    float timeBonus;
+    float increasedScore;
+    int doubleScore;
+    bool endLastScore;
+    bool createThreeeHyper;
+    float increaseComboTimes;
+    int lastScores;
+    int scoresBeforeLastBonus;
     //moveto
-    bool move =false;
-    CCPoint mainPoint = CCPoint();
-    bool swape = true;
-    bool runningAfter = false;
-    CCArray *boolMoveTo = new CCArray();
-    CCArray *boolAfterClean = new CCArray();
+    bool move;
+    CCPoint mainPoint;
+    bool swape;
+    bool runningAfter;
+    CCArray *boolMoveTo;
+    CCArray *boolAfterClean;
     //time----
-    bool endTime = false;
+    bool endTime;
     
     // fixed hyper block C
-    bool isHBCinBlockSet = false;
+    bool isHBCinBlockSet;
     float setCleanDelay();
     
-    bool createB = false;
+    bool createB;
 
     //Animation of burning old man
     bool burningTakasuOn;
     
 public:
-    CCArray* currentBlockSet = NULL;            // keep track of the current block set
+    CCArray* currentBlockSet;            // keep track of the current block set
     
 #pragma mark Takasu Poppo
     
@@ -370,21 +370,21 @@ public:
     static CCScene* scene(TPItemObject* itemObject);
     
     // Vinhnt - for the really combo
-    float ComboTimer = 0;           //Timer for combos
-    int ComboCounter = 0;           //Counter for combos
+    float ComboTimer;           //Timer for combos
+    int ComboCounter;           //Counter for combos
     
     //Vinhnt - plus combo just in 1 function
     void plusAllComboCounter();
     
     //Vinhnt - logic Delay
     void logicDelaySwitch();
-    bool executingLogic = false;
-    float logicCounter = 0;
-    float logicDelayTime = LOGIC_DELAY;
-    bool isMatchListDone = false;
+    bool executingLogic;
+    float logicCounter;
+    float logicDelayTime;
+    bool isMatchListDone;
     // set logic Delay time in a dynamic way
-    int fallDistance = 0; // after clean and generate block fall distance is the same.
-    int gbFallDistance = 0;
+    int fallDistance; // after clean and generate block fall distance is the same.
+    int gbFallDistance;
     void setFallDistance(CCArray* toDestroyArray);
     // temp array to store touched HBC
     CCArray* tempHBCArray;
@@ -408,7 +408,7 @@ public:
     void deleteMainSprite();
     
     bool checkCreatedBlockSet(CCPoint coor, int type);
-    bool swapruning = false;
+    bool swapruning;
     //remove sprite
     void removeSprite(CCNode* sender, void* data);
     bool checkUpdate();

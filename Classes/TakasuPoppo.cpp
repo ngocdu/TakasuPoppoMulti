@@ -58,7 +58,93 @@ bool TakasuPoppo::init(TPItemObject* itemObject) {
     
     controlable = true;
     
+    //========================= New Init ============================
     
+    winSize = CCDirector::sharedDirector()->getWinSize();
+    
+    hbcComboCounter = 0;
+    hbcComboTimer = 0;
+    
+    executionTime = 3.5;
+    endTimeCounter = 4.5;
+    hintCounter = 3;
+    
+    movingSpeed = AFTER_CLEAN_FALL_TIME;
+    gameTimer = PLAY_TIME;
+    
+    counterExist1 = false;
+    counterExist2 = false;
+    counterExist3 = false;
+    
+    prepareToEnd = false;
+    timeOverOn = false;
+    takasuBonusOn = false;
+    
+    gridOn = false;
+    
+    debugRun = 0;
+    
+    score = 0;
+    ComboScoreRequired = 1;
+    
+    // Vinhnt - for fever time
+    feverTimer = 0;           //Timer for Fever Time
+    feverTimeLimit = 3;
+    feverCounter = 0;           //Counter for Fever Time
+    isCreateFeverTime = false;
+    isInFeverTime = false;
+    
+    hyperC = 10;
+    hyperBlockC = false;
+    //Vinhnt - for Gauge Combo
+    gaugeComboCounter = 0;
+    isCreateGaugeCombo = false;
+    lastGaugeCombo = 0;
+    gaugePeriod = GAUGE_PERIOD;
+    
+    //item
+    timeBonus = 0;
+    increasedScore = 1;
+    doubleScore = 1;
+    endLastScore = false;
+    createThreeeHyper = false;
+    increaseComboTimes = 0;
+    lastScores = 0;
+    scoresBeforeLastBonus = 0;
+    //moveto
+    move =false;
+    mainPoint = CCPoint();
+    swape = true;
+    runningAfter = false;
+    boolMoveTo = new CCArray();
+    boolAfterClean = new CCArray();
+    //time----
+    endTime = false;
+    
+    // fixed hyper block C
+    isHBCinBlockSet = false;
+    createB = false;
+    currentBlockSet = NULL;
+    
+    // Vinhnt - for the really combo
+    ComboTimer = 0;           //Timer for combos
+    ComboCounter = 0;           //Counter for combos
+    
+    //Vinhnt - plus combo just in 1 function
+    plusAllComboCounter();
+    
+    //Vinhnt - logic Delay
+    executingLogic = false;
+    logicCounter = 0;
+    logicDelayTime = LOGIC_DELAY;
+    isMatchListDone = false;
+    // set logic Delay time in a dynamic way
+    fallDistance = 0; // after clean and generate block fall distance is the same.
+    gbFallDistance = 0;
+    
+    swapruning = false;
+    
+    //===============================================================
     
     //========================= Debugs =============================
 //    debugTilesArray = new CCArray;

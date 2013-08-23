@@ -2251,8 +2251,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Do Kien (ZWHFY635HC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Do Kien (ZWHFY635HC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vinh Nguyen (P5ZMFEL9XZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vinh Nguyen (P5ZMFEL9XZ)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2279,8 +2279,8 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = TakasuPoppo;
-				PROVISIONING_PROFILE = "14ECE3CE-7015-49AD-B61F-778DCFD6DAEC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "14ECE3CE-7015-49AD-B61F-778DCFD6DAEC";
+				PROVISIONING_PROFILE = "E16BFFD3-149D-4A0E-842A-45391C971294";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E16BFFD3-149D-4A0E-842A-45391C971294";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../libs\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2290,8 +2290,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Do Kien (ZWHFY635HC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Do Kien (ZWHFY635HC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vinh Nguyen (P5ZMFEL9XZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vinh Nguyen (P5ZMFEL9XZ)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2317,8 +2317,8 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = TakasuPoppo;
-				PROVISIONING_PROFILE = "14ECE3CE-7015-49AD-B61F-778DCFD6DAEC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "14ECE3CE-7015-49AD-B61F-778DCFD6DAEC";
+				PROVISIONING_PROFILE = "E16BFFD3-149D-4A0E-842A-45391C971294";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E16BFFD3-149D-4A0E-842A-45391C971294";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../libs\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
